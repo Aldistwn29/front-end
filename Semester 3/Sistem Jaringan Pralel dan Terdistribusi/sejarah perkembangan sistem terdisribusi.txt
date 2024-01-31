@@ -1,0 +1,29 @@
+sejarah perkembangan sistem terdistribusi
+
+pada tahun 1960-1967 (Mainframe)
+ Mesin komputasi dengan berbasisi mainframe di anggap menjadi solusi terbaik 
+karena dapat memperoses data sekala besar karena menyedaikan waktu kepada client yg berinteraksi dengan lokal teletype.
+jenis sistem ini mengonsepkan arsitektur client-server, artinya client menghubungkan dan meminta kepada server, selanjutanya server memperoses permintaan ini. kemungkinan sistem pembagian waktu tunggal untuk mengirim sumber daya melalui satu media di antara client. 
+Namun terdapat sebuah kelemahan utama yaitu harga yg cukup mahal dan inovasi penyimpanan awal berbasis disk dan memori transistor.
+
+(Cluster Networks = jaringan klaster) 
+ di awal 1970,terjadi perkembangan packet-switching dan cluster computing sistem mainframe meskipun biayanya mahal. dalam komputasi klaster, perangkap keras yg mendasariny terdiri dari kumpulan statsiun kerja atau pc,terhubung erat melalui jaringan area lokal berkecepatan tinggi di mana setiap node menjalankan sistem operasi yang sama. selama tahun 1967-1974, pembuatam ARPANET yg kemudian menajadi protipe untuk internet modern. dan pada 1970 han juga muncul protokol jaringan TCP/IP yg memfasilitasi datagram dan komuniakasi berorientasi aliran melalui jaringan-jaringan otonom packet-switched juga muncul.
+- interner dan PC's
+ di era ini terjadi evolusi internet. teknologi seperti TCP/IP telah mengubah internet menjadi jaringan yg terhubung, menghubungkan jaringan lokal ke internet yg lebih luas. oleh karena itu, jumlah host yg terhubung ke jaringam mulai bertambah pesat, oleh karena itu sistem penamaan terpusat seperti HOSTS.TXT tidak dapat memberikan skalbilitas. pada tahun 1985 Domain Name Systems(DNSs) dan mampu mengubah nama domain host menjadi IP.Komputer berbasis GUI awal yg memanfaatkan WIMP(windows, icons, menus, pointers) memberikan kelayakan komputasi di rumah, menyediakan aplikasu seperti video game dan penjelajahan web kepada konsumen.
+- World Wide Web(WWW)
+ pada tahun 1980-1990an, Time Berners Lee di CERN menciptakan HyperText Transfer Protocol(HTTP) dan HyperText Markup Language(HTML) menghasilakan web browser, situs web, dan server web pertama.Standariasasi TCP/IP menyediaknab infrastruktur untuk jaringan-jaringan yg saling terhubung yg dukenak sebagai World Wide Web(WWW), Hal ini menyebabkan pertumbuhan luar biasa dalam jumlah host yg terhubung ke internet. aplikasi perangkat lunak yg berjalan pada berbagai platform perangkat keras, OS, dan jaringan yg berbeda menghadapi tantangan ketika diharuskan untuk berkomunikasi satu sama lain dan berbagai data, dari tantangan tersebut menuntut pada konseo aplikasu komputasi terdistribusi.
+- P2P, Grids dan layan web
+ jaringan P2L, setiap klient bertindak sebagai klien dan server. berbagai file P2P di perkenalkan pada tahun 1999 ketika mahasiswa amerika Shawn Fanning menciptakan layanan berbagai musik Napster.
+data grid yaitu sekumpulan komputer dapat berinteraksi langsung satu sama lain untuk melakukan tugas serupa dengan menggunakan middleware. selama tahun 1994-2000, kami juga melihat terciptanya vir-tualisasi x86 yg efektif.
+dengan di perkenalkan layanan web, komunikasu platfrom-independen didirikan yg menggunakan sistem pertukaran informasu XML yg menggunakan internet untuk interkasu aplikasi ke aplikasi secara langsung.
+- Komputasi Terdistribusi skala besar
+ di abad ke 21 layanan cloud seperti AWS, Azure, dan google Cloud menggunakan organisasi untuk menyimpan, mengelola, dan memperoses data secara terdistribusi tanpa harus merawat infrastruktur fisik.
+
+- iot dan Edge Computing
+Perkembangan Iot dan Edge Computing membawa komputasu terdistribusi ke tingkat yg lebih ke tingat yg lebih tinggi dengan miliaran perangkat terhubung yg memperoses data di lokasi mereka sendiri sebelum mengirimkanya ke pusat data.
+
+Kemajuan Selanjutnya:
+
+Perkembangan teknologi dan konsep dalam komputasi terdistribusi terus berlanjut, termasuk penggunaan teknologi seperti containerization (seperti Docker) dan orkestrasi (seperti Kubernetes) untuk mengelola aplikasi terdistribusi dengan lebih efisien.
+
+

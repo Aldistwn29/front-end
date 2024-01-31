@@ -1,0 +1,26 @@
+Nama : ALDI SETIAWAN
+NIM : 2022OO40054
+KELAS : TI 22 H
+PRODI : TEKNIK INFORMATIKA
+
+Agile menggunakan metode scrum
+"Empiricism assert that knowledge comes from experience and making decisions based on what it observed"
+kalimat di atas menyakan bahawa metode scrum berlandaskan pada empirisme, yg dimana nanti akan menghasilkan sebuah pengetahuan yg berasal dari pengalaman dan pengambilan keputusan berdasrkan yg di amati.dan ada tiga pilar yg membangun metode scrum ini di antarnya adalah:
+1. transparency artinya seluruh aspek proyek, termasuk kemajuan, permasalahan, dan resiko, harus terlihat dan dapat diakses oleh semua orang yg terlibat dalam proyek
+2.inspection Pilar kedua Scrum adalah inspeksi. Hal ini melibatkan peninjauan kemajuan proyek secara berkala, termasuk peningkatan produk yang dikirimkan pada akhir setiap sprint.
+3.adaptation artinya tim harus bersedia melakukan perubahan berdasarkan hasil pemeriksaannya.
+
+peran-peran beserta tugas dalam metode scrum
+- project management(backlog) berfungsi untuk menentukan anggota-anggota tim yg akan mengerjakan proyek dan mengumpulkan masalah.
+- project manager(Scrum Master) menentukan berapa lama waktu pengerjaan(sprint)
+- product owner bertugas memastikan kualitas dari produk sudah sesuai
+manfaat dari menggunakan krangka/metode scrum
+
+mengembangkan produk yg bersifat kompleks dn dinamis. 
+dapat digunakan tim untuk dapat bekoordinasi dengan terstuktur dan komunikasi dengan anggota tim terbentuk
+mempercepat rilisan suatu produk dengan produktivitas dan kualitas yg tinggi
+memberikan cost yg lebih rendah dalam pengerjaan proyek.
+-alat populer mankah yg terkait dengan model ini?
+1. trello adalah alat manjemen tugas yg sederhana menjadi intuitif.
+2. jira adalah alat menjemen proyek yg sangat populer yg digunakan untuk mengelola proyek agile, termasuk scrum.
+3.asana adalah alat manjemen tugas yg flexsibel dapat digunakan untuk mengelola proyek Agile, termasuk Scrum
