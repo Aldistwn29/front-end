@@ -1,0 +1,46 @@
+html {
+    color:black;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.my-component {
+    font-weight: 500;
+}
+
+.my-component strong {
+    font-weight: inherit;
+}
+
+/* Tumpukan font sistem untuk menunjukkan perbedaan bobot */
+body {
+    font-family: apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+.my-button {
+    display: inline-block;
+    padding:1rem 2rem;
+    text-decoration: none;
+    background:black;
+    font: inherit;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+.my-button:hover {
+    background:gray;
+}
+
+aside strong {
+    font-weight: initial;
+}
+article a {
+    color:blue;
+}
+
+article > * + * {
+    margin-top: 1em;
+}

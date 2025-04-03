@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            .awesome {
+                background-color: rgb(40, 147, 230);
+                text-transform: uppercase;
+                font-size: 5rem;
+                font-weight: 700;
+                line-height: 1;
+                border:1px solid;
+                padding:2rem;
+
+                /* the important extrinsic width */
+                width: 32px;
+            }
+
+            .awesome[data-sizing="intrinsic"] {
+                width:min-content;
+            }
+
+            .awesome {
+                --flow-space:2rem;
+            }
+        </style>
+    </head>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>Extrinsic sizing vs Intrinsic sizing</h1>
+                <figure class="callout">
+                    <p>
+                        Perhatikan bahawa ketika kotak menggunakan ukuran extrinsic,
+                        ada batasan berapa banyak konten yang dapat anda tambahkan 
+                        sebelum melebihi batasan kotak. Ini membuat "awesome", meluap
+                    </p>
+                </figure>
+                <label class="toggle" for="intrinsic-switch">
+                    <span>Nyalakan intrinsic sizing</span>
+                    <input type="checkbox" role="switch" class="toggle_element" id="intrinsic-switch">
+                    <div class="toggle_decor" aria-hidden="true">
+                        <div class="toggle_thumb"></div>
+                    </div>
+                </label>
+                <p class="awesome" data-element="awesome">css is awesome</p>
+            </article>
+        </div>
+    </main>
+    <script>
+        const awesome = document.querySelector('[data-element="awesome"]');
+        const intrinsicSwitch = document.querySelector('#intrinsic-switch');
+        console.log(intrinsicSwitch);
+        // set sizing attribute based on switch
+        intrinsicSwitch.addEventListener("change", () => {
+            awesome.setAttribute(
+                'data-sizing',
+                intrinsicSwitch.checked ? "intrinsic" : "extrinsic"
+            );
+        });
+    </script>
+</html>
