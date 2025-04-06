@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Latihan Sizing Units</title>
+    </head>
+    <article>
+        <h1>Using a <code>ch</code> unit to size text</h1>
+        <p>The <code>ch</code> unit allows you to control the size of text based on its actual contextual size—the width of a <code>0</code> character.
+            This means that if you set the max width of some text as <code>70ch</code>: regardless of the size of that text, you can always be sure that it will be at most, 70 characters wide.</p>
+        <p>
+            Go ahead and change the font sizes and max widths of these elements in the CSS editor to see it working.
+        </p>
+    </article>
+
+    <p class="myp">Tinggi garis adalah rasio 24px, bukan ukuran tertentu. 
+        Tinggi garis saat ini adalah 1,5, yang dihitung sebagai 36px</p>
+    
+    <div class="border">
+        <p class="border">Elemen p ini berukuran 50% dari lebar div, yaitu 150px.</p>
+    </div>
+
+    <main>
+        <div class="vp">
+            Div ini adalah 10% dari viewport
+        </div>
+        <p class="vp">Paragraf ini dibatasi hingga <code>60ch</code> 
+            yang memiliki lebar yang sama dengan 60 karakter “0” dalam font yang ditampilkan.</p>
+    </main>
+</html>

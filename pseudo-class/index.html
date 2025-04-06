@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan pseudo-class</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+
+            /* Impelementasi hover */
+            a:hover {
+                color:black;
+                background: gray;
+                text-decoration: none;
+            }
+
+            p {
+                font-size: 1.3em;
+            }
+
+            /* implementasi active */
+            .button:active {
+                transform: scale(0.99);
+                box-shadow: none;
+            }
+
+            /* implementasi disabled */
+            .button:disabled:hover {
+                box-shadow: none;
+            }
+
+            /* implementasi focus */
+            .button:focus {
+                outline:2px dashed black;
+                outline-offset:2px;
+                background-color: gray;
+            }
+
+            .button {
+                background-color:black;
+                color:white;
+                border:none;
+                padding:15px;
+                text-transform: 20px;
+                cursor: pointer;
+                text-transform: uppercase;
+                border-radius: 5px;
+                min-width: 200px;
+                border-radius: 1px solid;
+            }
+
+            /* This highlights the <h2> for the recipe and every element that follows it */
+            #recipe:target,
+            #recipe:target ~ * {
+                background-color: lightgoldenrodyellow;
+            }
+
+            h2 {
+                display: inline-block;
+            }
+            h2,
+
+            p {
+                padding:0.25em;
+            }
+
+            [id] {
+                scroll-margin-top:2em;
+            }
+
+            /* implementasi disabled pada button */
+            button:disabled {
+                background:white;
+                cursor: not-allowed;
+            }
+
+            /* implementasi enabled */
+            button:enabled {
+                border:5px solid black;
+            }
+
+        </style>
+        <body>
+            <!-- implementasi hover -->
+            <p>This is a link: <a href="#">hover are more</a></p>
+            <div class="wrapper">
+                <button class="button">Click and hold to see the active state</button>
+            </div>
+            <br>
+            <div>
+                <button disabled>I am a button with a disabled state</button>
+                <button>I am an enabled button</button>
+            </div>
+            <div class="wrapper">
+                <label>
+                    <input type="checkbox">
+                    Check me
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Check me to
+                </label>
+            </div>
+            <br>
+            <form action=""></form>
+        </body>
+    </head>
+</html>
