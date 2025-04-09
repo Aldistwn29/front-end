@@ -1,0 +1,79 @@
+.pulser {
+    height: 12rem;
+    width:12rem;
+    background: purple;
+    border-radius: 50%;
+    margin:5rem;
+    position:relative;
+}
+
+.pulser::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 50%;
+    background: purple;
+    animation:pulse 5s infinite;
+} 
+
+@keyframes pulse {
+    0% {
+        opacity:0;
+    }
+
+    50% {
+        transform: scale(1.5);
+        opocity:0.4;
+    }
+}
+
+/* Implementasi pulser duration */
+.pulser-duration {
+    height: 12rem;
+    width:12rem;
+    background:blue;
+    border-radius: 50%;
+    margin:5rem;
+    position:relative;
+}
+
+.pulser-duration::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 50%;
+    background:blue;
+    animation:mymove 5s infinite;
+    animation-timing-function:linear;
+    -webkit-animation:mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+}
+
+/* implementasi cubic beizer */
+.demo-cubic-beizer{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 7s;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    -webkit-transition: width 7s;
+    -moz-transition: width 7s;
+    -ms-transition: width 7s;
+    -o-transition: width 7s;
+}
+
+.demo-cubic-beizer:hover{
+    width: 300px;
+}
+
+

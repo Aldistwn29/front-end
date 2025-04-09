@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+
+            .backdrop-filter h1 {
+                padding:1.5rem;
+                background: hsl(0 100% 100% / 55%);
+                backdrop-filter: blur(10px);
+                z-index:1;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .my-element {
+                filter: hue-rotate(120deg);
+            }
+
+            .backdrop-filter {
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items:center;
+                width: 100%;
+                height: 80vh;
+                max-height: 600px;
+                position:relative;
+            }
+
+            .backdrop-filter img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top:0;
+                left:0;
+                object-fit: cover;
+            }
+            
+            .demo {
+                display:grid;
+                grid-template-columns:repeat(auto-fit, minmax(10rem, 1fr));
+                gap:1.5rem;
+                margin:2em auto;
+                max-width: 500px;
+            }
+
+            .demo p {
+                margin-top:0.5rem;
+            }
+
+            .demo img {
+                width:100%;
+                max-height: 200px;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="backdrop-filter">
+            <h1>Check out these tile</h1>
+            <img src="https://th.bing.com/th/id/OIP.k_1qzUNoFBsQqvKdJf9Z-QHaFS?w=190&h=180&c=7&r=0&o=5&pid=1.7" alt="Diagonal checkboard tiles">
+        </div>
+
+        <div class="demo">
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.k_1qzUNoFBsQqvKdJf9Z-QHaFS?w=190&h=180&c=7&r=0&o=5&pid=1.7" 
+                    alt="Diagonal checkboard tiles">
+                    <p>No Filter</p>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.k_1qzUNoFBsQqvKdJf9Z-QHaFS?w=190&h=180&c=7&r=0&o=5&pid=1.7" alt="my-element">
+                <p>with filter <code>with filter</code></p>
+            </div>
+        </div>
+        
+    </body>
+</html>
