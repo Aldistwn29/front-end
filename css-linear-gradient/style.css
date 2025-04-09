@@ -1,0 +1,55 @@
+/* linear gradient */
+.linear-gradient-example {
+    height:12rem;
+    width:12rem;
+    background:linear-gradient(45deg, violet 50%, blue 10%);
+    /* background:radial-gradient(circle at center, darkred, gold, bisque); */
+}
+
+.radient-gradient-example {
+    height:12rem;
+    width:12rem;
+    background:radial-gradient(circle, darkred , gold, bisque, crimson);
+}
+
+.conic-gradient-example {
+    height:12rem;
+    width:12rem;
+    background: conic-gradient(red 6deg,                            orange 6deg 18deg,                            yellow 18deg 45deg,                            green 45deg 110deg,                            blue 110deg 200deg,                            purple 200deg);
+    border-radius:50%;
+    border:1px solid black;
+}
+
+.repeating-linear-gradient {
+    height:12rem;
+    width:12rem;
+    background:repeating-linear-gradient(
+        45deg,
+        red, 
+        red 30px,
+        white 20px,
+        white 50px
+    )
+}
+
+.multi-radial-gradient-example {
+    height:12rem;
+    width:12rem;
+    background: repeating-radial-gradient(
+            circle at center,
+            white,
+            white 5px, 
+            black 10px,
+            black 20px);
+    border-radius: 50%;
+}
+
+.repeating-conic-gradient-example {
+    height:12rem;
+    width:12rem;
+    background: repeating-conic-gradient(
+        #fff 0 45deg,
+        #000 45deg 90deg
+    );
+}
+
