@@ -1,0 +1,8 @@
+.button {
+    background-color: #00eeffd7;
+}
+
+.my-element {
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+}

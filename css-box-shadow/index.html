@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Latihan Box Shadow</title>
+        <style type="text/css">
+
+            /* Membuat class box */
+            .box{
+                width:12rem;
+                height: 12rem;
+                border:1px solid black;
+                margin:120px 120px;
+                box-shadow:inset 6px 10px 5px 5px red, 
+                inset 15px 10px 5px 5px rgb(3, 43, 241), 
+                20px 10px 5px 5px rgb(2, 103, 2);
+            }
+
+            /* Membuat class text shadow */
+            .text-shadow{
+                font-size: 70px;
+                text-shadow: 10px 10px 5px red;
+                color:rgb(0, 0, 0 / 0%);
+            }
+
+            /*  */
+            img {
+                height:30rem;
+                filter:drop-shadow(5px 5px 5px red) drop-shadow(10px 5px 10px rgb(3, 43, 241));
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Box shasow -->
+        <div class="box">Box</div>
+        <!-- Text shadow -->
+        <p class="text-shadow">Lorem ifsum sit amer dolar</p>
+        <!--  drop shadow-->
+        <figure>
+            <img src="baju-hitam-3.png" alt="A black t-shirt" >
+            <figcaption>A Coll, balck t-shirt</figcaption>
+        </figure>
+    </body>
+</html>
